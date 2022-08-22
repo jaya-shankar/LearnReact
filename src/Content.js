@@ -4,12 +4,11 @@ import { Button,Box,Nav,
 
 import OffsetStats from "./Components/OffsetStats";
 import TreeOptions from "./Components/TreeOptions";
-import OuterBox from "./Components/OuterBox";
 import RHeader from "./Components/RHeader";
 import OffsetChart from "./Components/OffsetChart";
 
 
-export default function Content() {
+export default function Content(props) {
 
     return (
     <PageContent align="center" justify="center">
@@ -26,15 +25,10 @@ export default function Content() {
                     <Button label="June" plain />
                 </Nav>
             </Main>
-            <OuterBox direction="row">
-                <OffsetStats />
-            </OuterBox>
-            <OuterBox >
-                <OffsetChart type="bar" color="green" />
-            </OuterBox>
-            <OuterBox  >
-                <TreeOptions/>
-            </OuterBox>
+            
+            <OffsetStats />
+            <OffsetChart type="bar" color="green" data={props.graphData} />
+            <TreeOptions treeUpdate = {props.UpdateGraphData}/>
 
         </Box>
     </PageContent>

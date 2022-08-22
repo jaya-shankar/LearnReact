@@ -68,7 +68,9 @@ restored
             Trees Planted
           </Text>
           <DropButton label="Yearly" dropAlign={{"top":"bottom"}} open  dropContent={(
-            <Box align="center" justify="center" pad="medium" />
+            <Box align="center" justify="center" pad="medium" >
+              <Button label="2022" plain />
+            </Box>
           )}
            icon={<Down />} reverse primary={false} secondary={false} plain />
         </CardHeader>

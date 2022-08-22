@@ -2,6 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Resources used
+- React Routing
+  - https://v5.reactrouter.com/web/guides/quick-start
+  - https://www.digitalocean.com/community/tutorials/how-to-handle-routing-in-react-apps-with-react-router
+
+- States
+  - https://reactjs.org/docs/state-and-lifecycle.html
+  - https://reactjs.org/docs/hooks-state.html
+  - https://dev.to/shareef/how-to-work-with-arrays-in-reactjs-usestate-4cmi
+
+- https://upmostly.com/tutorials/pass-a-parameter-through-onclick-in-react
+- 
+
+## StackOverFlow
+- https://stackoverflow.com/questions/69975792/error-home-is-not-a-route-component-all-component-children-of-routes-mus
+
+
 ## Available Scripts
 
 In the project directory, you can run:
