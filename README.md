@@ -18,6 +18,48 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## StackOverFlow
 - https://stackoverflow.com/questions/69975792/error-home-is-not-a-route-component-all-component-children-of-routes-mus
 
+## RoadMap
+
+- Setup the project 
+  - package mangers 
+  - create react app
+  - understanding react structure
+  - understading jsx
+- Components
+  - grommet components
+  - grommet designer
+  - grommet storybook
+  - breaking down the components into boxes
+  - props 
+- States
+  - what are states?
+  - how to create states?
+  - when to create
+  - managing states (update)
+  - passing states to components
+  - Lifecyle methods (useState,userEffect)
+
+- Context in React
+  - what is Context Provider
+  - when to use context provider
+- Routing 
+ - Routers
+ - Link
+ - nested Routing
+- Hooks
+  - useState
+  - useEffect
+  - useContext
+  - useReducer
+  - useRef
+  - useImperativeHandle
+  - useLayoutEffect
+  - useCallback
+  - useMemo
+  - useDebugValue
+
+- API fetching
+
 
 ## Available Scripts
 
